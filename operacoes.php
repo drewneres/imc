@@ -38,15 +38,13 @@
         </form>
 
     </div>
-    <!-- Incluindo Bootstrap JS e jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!--Parece que tem que ter isso aqui pra funfar o javascripto-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
 
-    <!-- Script para preencher os campos aleatoriamente -->
     <script>
         $(document).ready(function() {
             $('#btnPreencher').click(function() {
-                $('#num1').val(Math.floor(Math.random() * 100)); // Preenche com número aleatório de 0 a 100
+                $('#num1').val(Math.floor(Math.random() * 100)); //gera um número aleatório entre 0 e 100
                 $('#num2').val(Math.floor(Math.random() * 100));
                 $('#num3').val(Math.floor(Math.random() * 100));
                 $('#num4').val(Math.floor(Math.random() * 100));
